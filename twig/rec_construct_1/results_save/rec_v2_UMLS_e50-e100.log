@@ -1,0 +1,122 @@
+loading NN
+loading from checkpoint 141_v2_UMLS_e50-e91.pt
+done loading NN
+loading dataset
+('2.1', '2.2', '2.3', '2.4')
+Seeing if there are files to load...
+Loaded fils!
+Configuring datasets on Torch
+calculating batch / chunk details
+configuring batches; using training batch size 1304
+configuring batches; using testing batch size 1304
+done loading dataset
+running training and eval
+NeuralNetwork_HPs_v2(
+  (linear_struct_1): Linear(in_features=23, out_features=10, bias=True)
+  (relu_1): ReLU()
+  (linear_struct_2): Linear(in_features=10, out_features=10, bias=True)
+  (relu_2): ReLU()
+  (linear_hps_1): Linear(in_features=9, out_features=6, bias=True)
+  (relu_3): ReLU()
+  (linear_integrate_1): Linear(in_features=16, out_features=8, bias=True)
+  (relu_4): ReLU()
+  (linear_final): Linear(in_features=8, out_features=1, bias=True)
+  (relu_final): ReLU()
+)
+Done Training (dist)!
+Epoch 1 -- batch 0 / 3645 mrrl: 0.000114; urll: 0.001991; 
+batch 500 / 3645 mrrl: 0.020900; urll: 0.003745; 
+batch 1000 / 3645 mrrl: 0.002117; urll: 0.007762; 
+batch 1500 / 3645 mrrl: 0.005626; urll: 0.006304; 
+batch 2000 / 3645 mrrl: 0.000012; urll: 0.002984; 
+batch 2500 / 3645 mrrl: 0.013418; urll: 0.004529; 
+batch 3000 / 3645 mrrl: 0.023639; urll: 0.004669; 
+batch 3500 / 3645 mrrl: 0.023497; urll: 0.002354; 
+Saving checkpoint at [2] epoch 1
+Epoch 2 -- batch 0 / 3645 mrrl: 0.001111; urll: 0.002455; 
+batch 500 / 3645 mrrl: 0.014099; urll: 0.004379; 
+batch 1000 / 3645 mrrl: 0.359852; urll: 0.022737; 
+batch 1500 / 3645 mrrl: 0.002093; urll: 0.005338; 
+batch 2000 / 3645 mrrl: 0.000041; urll: 0.003062; 
+batch 2500 / 3645 mrrl: 0.008890; urll: 0.004793; 
+batch 3000 / 3645 mrrl: 0.065749; urll: 0.003184; 
+batch 3500 / 3645 mrrl: 0.000016; urll: 0.001943; 
+Saving checkpoint at [2] epoch 2
+Epoch 3 -- batch 0 / 3645 mrrl: 0.000058; urll: 0.002659; 
+batch 500 / 3645 mrrl: 0.023401; urll: 0.003531; 
+batch 1000 / 3645 mrrl: 0.000009; urll: 0.006190; 
+batch 1500 / 3645 mrrl: 0.008532; urll: 0.018614; 
+batch 2000 / 3645 mrrl: 0.002891; urll: 0.004701; 
+batch 2500 / 3645 mrrl: 0.005700; urll: 0.005042; 
+batch 3000 / 3645 mrrl: 0.054675; urll: 0.003169; 
+batch 3500 / 3645 mrrl: 0.000042; urll: 0.001447; 
+Saving checkpoint at [2] epoch 3
+Epoch 4 -- batch 0 / 3645 mrrl: 0.001198; urll: 0.003751; 
+batch 500 / 3645 mrrl: 0.015044; urll: 0.003696; 
+batch 1000 / 3645 mrrl: 0.000082; urll: 0.006824; 
+batch 1500 / 3645 mrrl: 0.010572; urll: 0.004886; 
+batch 2000 / 3645 mrrl: 0.000732; urll: 0.005764; 
+batch 2500 / 3645 mrrl: 0.002323; urll: 0.005633; 
+batch 3000 / 3645 mrrl: 0.074954; urll: 0.003628; 
+batch 3500 / 3645 mrrl: 0.000162; urll: 0.002218; 
+Saving checkpoint at [2] epoch 4
+Epoch 5 -- batch 0 / 3645 mrrl: 0.000147; urll: 0.001783; 
+batch 500 / 3645 mrrl: 0.047531; urll: 0.003444; 
+batch 1000 / 3645 mrrl: 0.003449; urll: 0.005864; 
+batch 1500 / 3645 mrrl: 0.002362; urll: 0.007507; 
+batch 2000 / 3645 mrrl: 0.000028; urll: 0.002843; 
+batch 2500 / 3645 mrrl: 0.000960; urll: 0.005960; 
+batch 3000 / 3645 mrrl: 0.011521; urll: 0.003735; 
+batch 3500 / 3645 mrrl: 0.000098; urll: 0.001276; 
+Saving checkpoint at [2] epoch 5
+Epoch 6 -- batch 0 / 3645 mrrl: 0.000048; urll: 0.001685; 
+batch 500 / 3645 mrrl: 0.036792; urll: 0.003457; 
+batch 1000 / 3645 mrrl: 0.005101; urll: 0.006142; 
+batch 1500 / 3645 mrrl: 0.007080; urll: 0.008758; 
+batch 2000 / 3645 mrrl: 0.000121; urll: 0.001697; 
+batch 2500 / 3645 mrrl: 0.001343; urll: 0.006110; 
+batch 3000 / 3645 mrrl: 0.063328; urll: 0.003208; 
+batch 3500 / 3645 mrrl: 0.000096; urll: 0.001307; 
+Saving checkpoint at [2] epoch 6
+Epoch 7 -- batch 0 / 3645 mrrl: 0.000516; urll: 0.001774; 
+batch 500 / 3645 mrrl: 0.046108; urll: 0.003379; 
+batch 1000 / 3645 mrrl: 0.056445; urll: 0.010251; 
+batch 1500 / 3645 mrrl: 0.008287; urll: 0.005940; 
+batch 2000 / 3645 mrrl: 0.001412; urll: 0.003670; 
+batch 2500 / 3645 mrrl: 0.005047; urll: 0.005091; 
+batch 3000 / 3645 mrrl: 0.047230; urll: 0.003448; 
+batch 3500 / 3645 mrrl: 0.000047; urll: 0.001478; 
+Saving checkpoint at [2] epoch 7
+Epoch 8 -- batch 0 / 3645 mrrl: 0.000140; urll: 0.004581; 
+batch 500 / 3645 mrrl: 0.011289; urll: 0.003971; 
+batch 1000 / 3645 mrrl: 0.003321; urll: 0.006159; 
+batch 1500 / 3645 mrrl: 0.007744; urll: 0.004061; 
+batch 2000 / 3645 mrrl: 0.000047; urll: 0.001724; 
+batch 2500 / 3645 mrrl: 0.000870; urll: 0.006095; 
+batch 3000 / 3645 mrrl: 0.055926; urll: 0.003181; 
+batch 3500 / 3645 mrrl: 0.000054; urll: 0.001267; 
+Saving checkpoint at [2] epoch 8
+Epoch 9 -- batch 0 / 3645 mrrl: 0.000002; urll: 0.002252; 
+batch 500 / 3645 mrrl: 0.023334; urll: 0.003898; 
+batch 1000 / 3645 mrrl: 0.009653; urll: 0.009171; 
+batch 1500 / 3645 mrrl: 0.000073; urll: 0.016679; 
+batch 2000 / 3645 mrrl: 0.044829; urll: 0.013242; 
+batch 2500 / 3645 mrrl: 0.001209; urll: 0.006071; 
+batch 3000 / 3645 mrrl: 0.306679; urll: 0.005663; 
+batch 3500 / 3645 mrrl: 0.000812; urll: 0.001910; 
+Saving checkpoint at [2] epoch 9
+Done Training (mrr)!
+Testing: batch 0 / 1215
+Testing: batch 500 / 1215
+Testing: batch 1000 / 1215
+ranks r2 : -1.476576328277588
+ranks r2 (sorted) : -1.476576328277588
+ranks R: tensor([[ 1.0000, -0.0333],
+        [-0.0333,  1.0000]], device='cuda:0')
+r_mrr = tensor([[1.0000, 0.9371],
+        [0.9371, 1.0000]])
+r2_mrr = 0.861781120300293
+test_loss: 0.018198699485357284
+Done Testing!
+done with training and eval
+Experiments took 0 seconds

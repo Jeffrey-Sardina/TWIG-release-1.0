@@ -1,0 +1,8 @@
+.vscode/
+*.gz
+docker_up.log
+twig.json
+twig.log
+*.pyc
+*.pt
+output/
