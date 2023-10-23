@@ -14,7 +14,7 @@ TODO: citation if accepted
 ```
 
 ## How do I install TWIG?
-The easiest way to install TWIG is in a Docker container -- simply pull this repo and run `docker-compose up` to use the Docker configuration we provide. The container will automatically run all install instructions (in the `install/install.sh` file; a full log will be output to `install/docker_up.log`).
+The easiest way to install TWIG is in a Docker container -- simply pull this repo and run `docker compose up` to use the Docker configuration we provide. The container will automatically run all install instructions (in the `install/install.sh` file; a full log will be output to `install/docker_up.log`).
 
 You can also use TWIG with a manual install. We ran TWIG in the following environment:
 ```
@@ -51,6 +51,7 @@ export PATH=$PATH:~/miniconda3/bin
 conda create -n "twig" python=3.9 pip
 conda run --no-capture-output -n twig pip install torch torchvision torchaudio
 conda run --no-capture-output -n twig pip install pykeen
+conda run --no-capture-output -n twig pip install torcheval
 conda init bash #or whatever shell you use
 ```
 

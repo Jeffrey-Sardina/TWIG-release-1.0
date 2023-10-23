@@ -21,6 +21,7 @@ apt install sqlite # needed for optuna, used by PyKEEN
 conda create -n "twig" python=3.9 pip
 conda run --no-capture-output -n twig pip install torch torchvision torchaudio
 conda run --no-capture-output -n twig pip install pykeen
+conda run --no-capture-output -n twig pip install torcheval
 conda init bash
 
 # Add to conda to .bashrc
