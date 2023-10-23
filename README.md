@@ -4,7 +4,7 @@ Jeffrey Seathrún Sardina
 ORCID: 0000-0003-0654-2938
 
 ## What is TWIG?
-TWIG (Topologically-Weighted Intelligence Generation) is a novel, embedding-free paradigm for learning Knowledge Grpahs (KGs) that uses a tiny fraction of the parameters compared to conventional Knowledge Graph Embeddings (KGEs). TWIG learns weights from inputs that consist of topological features of the graph data, with no coding for latent representations of entities or edges.
+TWIG (Topologically-Weighted Intelligence Generation) is a novel, embedding-free paradigm for learning Knowledge Graphs (KGs) that uses a tiny fraction of the parameters compared to conventional Knowledge Graph Embeddings (KGEs). TWIG learns weights from inputs that consist of topological features of the graph data, with no coding for latent representations of entities or edges.
 
 Our experiments show that, on the UMLS dataset, a single TWIG neural network can reproduce the results of ComplEx-N3 based KGEs nearly exactly on across all hyperparameter configurations. To do this it uses a total of 2590 learnable parameters, but accurately reproduces the results of 1215 different hyperparameter combinations with a combined cost of 29,322,000 parameters. All code and data needed to reproduce these experiments is contained in this repo.
 
@@ -125,6 +125,6 @@ If you wish to modify the settings on which TWIG is run (i.e. the version of the
 ### Extending TWIG
 Unfortunately, this is not a fully-fledged library. The existing codebase should work out-of-the-box for new KG datasets defined in PyKEEN (all you have to change is the UMLS tag in various files to the name of your new dataset).
 
-If you are looking for mode advanced functionality than reproduction of experiments, or want to use a KG dataset that is not part of PyKEEN (see their datasets here: https://github.com/pykeen/pykeen#datasets), the you will have to go source-code diving unfortunately. While I intend to create a full, extensible, applications-focussed library in the future, that is currently waiting on the conclusion of several more experiments on TWIG that may allow the inclusion of several more features.
+However, if you are looking for mode advanced functionality than reproduction of experiments, or want to use a KG dataset that is not part of PyKEEN (see their datasets here: https://github.com/pykeen/pykeen#datasets), then you will unfortunately have to go source-code diving. While I intend to create a full, extensible, applications-focussed library in the future, that is currently waiting on the conclusion of several more experiments on TWIG that may allow the inclusion of several more features.
 
 If you have any questions, or would like to contact me, please raise an issue on GitHub and I'd be very happy to help!
