@@ -1,12 +1,9 @@
 #!/bin/bash
 
-# Config
-TWIG_MODE="DROP"
-
 # Move into the rec directory
 cd rec_construct_1/
 
-for version in 1 2
+for version in 2
 do
     for dataset in UMLS
     do
