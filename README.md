@@ -26,7 +26,7 @@ torch 2.0.1
 
 While TWIG should, in principle, work on other operating systems, most of its high-level functionality is exposed as bash scripts. As a result, we suggest running it on Linux (in a Docker container or not) or on the Windows Subsystem for Linux (WSL: https://learn.microsoft.com/en-us/windows/wsl/install). Both of these settings have worked for the authors; while this should work on MAC in general as well we have not tested TWIG in a MacOS environment.
 
-Similarly, other pythhon environments and package versions likely will work, but we have not tested them. Note: we *highly* recommend using conda, and all instructions here will assume conda is being used.
+Similarly, other python environments and package versions likely will work, but we have not tested them. Note: we *highly* recommend using conda, and all instructions here will assume conda is being used.
 
 **1. Install Linux Packages**
 ```
