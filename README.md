@@ -4,13 +4,18 @@ Jeffrey Seathrún Sardina
 ORCID: 0000-0003-0654-2938
 
 ## What is TWIG?
-TWIG (Topologically-Weighted Intelligence Generation) is a novel, embedding-free paradigm for learning Knowledge Graphs (KGs) that uses a tiny fraction of the parameters compared to conventional Knowledge Graph Embeddings (KGEs). TWIG learns weights from inputs that consist of topological features of the graph data, with no coding for latent representations of entities or edges.
-
-Our experiments show that, on the UMLS dataset, a single TWIG neural network can reproduce the results of ComplEx-N3 based KGEs nearly exactly on across all hyperparameter configurations. To do this it uses a total of 2590 learnable parameters, but accurately reproduces the results of 1215 different hyperparameter combinations with a combined cost of 29,322,000 parameters. All code and data needed to reproduce these experiments is contained in this repo.
+TWIG (Topologically-Weighted Intelligence Generation) is a novel, embedding-free paradigm for simulating Knowledge Graphs Embedding. TWIG learns weights from inputs that consist of topological features of the graph data, with no coding for latent representations of entities or edges.
 
 If you use TWIG in your work, please cite:
 ```
-TODO: citation if accepted
+@inproceedings{sardina2024twig,
+  title={TWIG: Towards pre-hoc Hyperparameter Optimisation and Cross-Graph Generalisation via Simulated KGE Models},
+  author={Sardina, Jeffrey and Kelleher, John D and O’Sullivan, Declan},
+  booktitle={2024 IEEE 18th International Conference on Semantic Computing (ICSC)},
+  pages={122--129},
+  year={2024},
+  organization={IEEE}
+}
 ```
 
 ## How do I install TWIG?
